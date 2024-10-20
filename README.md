@@ -12,7 +12,7 @@ Post Manager es una aplicación web desarrollada con React y Next.js que permite
 - **Eliminar publicaciones**: Eliminar posts con confirmación mediante un modal.
 - **Notificaciones modales**: Mensajes informativos sobre las acciones realizadas (crear, editar, eliminar).
 
-## Autores
+## Autor
 
 - **Danilo Amaris** - [GitHub](https://github.com/danilojs17)
 
@@ -37,24 +37,30 @@ Post Manager es una aplicación web desarrollada con React y Next.js que permite
 
 3. Instala las dependencias. Puedes usar pnpm, npm o yarn:
 
-   # Si usas pnpm
+Si usas pnpm
 
-   pnpm install
+```bash
+pnpm install
+```
 
-   # O si usas npm
+Si usas npm
 
-   npm install
+```bash
+npm install
+```
 
-   # O si prefieres yarn
+O si prefieres yarn
 
-   yarn install
+```bash
+yarn install
+```
 
 4. Crea un archivo .env con las variables de entorno necesarias, basándote en un archivo de ejemplo .env.example.
 
 5. Inicia el servidor de desarrollo:
 
 ```bash
-  pnpm run dev
+pnpm run dev
 # O con npm
 npm run dev
 # O con yarn
@@ -65,11 +71,11 @@ yarn dev
    Para ejecutar las pruebas, utiliza el siguiente comando:
 
 ```bash
-  pnpm run dev
+pnpm run test
 # O con npm
-npm run dev
+npm run test
 # O con yarn
-yarn dev
+yarn test
 ```
 
 7. Abre el navegador y accede a http://localhost:3000 para ver la aplicación en funcionamiento.
