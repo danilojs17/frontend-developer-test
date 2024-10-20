@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Post Manager
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Post Manager es una aplicación web desarrollada con React y Next.js que permite gestionar publicaciones utilizando la API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com). La aplicación permite listar publicaciones de manera paginada, crear, editar y eliminar posts, mostrando notificaciones modales para cada acción realizada.
+
+## Características
+
+- **Listado de publicaciones**: Visualización de posts con paginación.
+- **Crear publicaciones**: Formulario para crear nuevos posts.
+- **Editar publicaciones**: Modificar los posts existentes.
+- **Eliminar publicaciones**: Eliminar posts con confirmación mediante un modal.
+- **Notificaciones modales**: Mensajes informativos sobre las acciones realizadas (crear, editar, eliminar).
+
+## Autores
+
+- **Danilo Amaris** - [GitHub](https://github.com/danilojs17)
+
+## Instalación
+
+### Prerrequisitos
+
+- Node.js >= 16.x.x
+- Yarn, npm o pnpm
+
+### Pasos de instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/usuario/post-manager.git
+   ```
+2. Accede al directorio del proyecto:
+
+   ```bash
+   cd post-manager
+   ```
+
+3. Instala las dependencias. Puedes usar pnpm, npm o yarn:
+
+   # Si usas pnpm
+
+   pnpm install
+
+   # O si usas npm
+
+   npm install
+
+   # O si prefieres yarn
+
+   yarn install
+
+4. Crea un archivo .env con las variables de entorno necesarias, basándote en un archivo de ejemplo .env.example.
+
+5. Inicia el servidor de desarrollo:
 
 ```bash
+  pnpm run dev
+# O con npm
 npm run dev
-# or
+# O con yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Ejecución de Pruebas
+   Para ejecutar las pruebas, utiliza el siguiente comando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  pnpm run dev
+# O con npm
+npm run dev
+# O con yarn
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+7. Abre el navegador y accede a http://localhost:3000 para ver la aplicación en funcionamiento.
 
-## Learn More
+## Tecnologías
 
-To learn more about Next.js, take a look at the following resources:
+- [React.js](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Material-UI](https://mui.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Axios](https://axios-http.com/)
+- [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Material React Table](https://www.material-react-table.com/)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Referencias
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Documentación oficial de React](https://react.dev/reference/react)
+- [Documentación oficial de Next.js](https://nextjs.org/docs)
+- [Material-UI](https://mui.com/material-ui/getting-started/)
+- [Documentación de Axios](https://axios-http.com/docs/intro)
+- [Documentación de React Hook Form](https://react-hook-form.com/get-started)
+- [Documentación de Jest](https://jestjs.io/docs/getting-started)
+- [Documentación de React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Documentación de Material React Table](https://www.material-react-table.com/)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
