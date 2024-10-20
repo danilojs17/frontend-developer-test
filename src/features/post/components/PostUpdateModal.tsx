@@ -19,15 +19,17 @@ const PostUpdateModal: FC<Props> = ({ onClose, open, post }) => {
 
   const onUpdatePost = async (data: IPost) => {
     try {
-      const response = await updatePost(data);
+      if (data.id > 100) {
+        dispatchPost({ type: Type.UPDATE, payload: data });
+      } else {
+        const response = await updatePost(data);
 
-      if (response.data.id) {
-        dispatchPost({ type: Type.UPDATE, payload: response.data });
-
-        onClose();
-        return true;
+        if (response.data.id) {
+          dispatchPost({ type: Type.UPDATE, payload: response.data });
+        }
       }
-      return false;
+      onClose();
+      return true;
     } catch (error) {
       return false;
     }
