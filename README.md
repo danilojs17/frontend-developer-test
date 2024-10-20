@@ -12,6 +12,12 @@ Post Manager es una aplicación web desarrollada con React y Next.js que permite
 - **Eliminar publicaciones**: Eliminar posts con confirmación mediante un modal.
 - **Notificaciones modales**: Mensajes informativos sobre las acciones realizadas (crear, editar, eliminar).
 
+## Despliegue
+
+Puedes visitar la aplicación desplegada en el siguiente enlace:
+
+[Visitar Post Manager](https://frontend-developer-test-phi.vercel.app)
+
 ## Autor
 
 - **Danilo Amaris** - [GitHub](https://github.com/danilojs17)

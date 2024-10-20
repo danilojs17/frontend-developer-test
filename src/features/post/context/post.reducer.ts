@@ -24,6 +24,13 @@ const postReducer = (state: IPost[], action: ActionType) => {
   const optionsReducer: Record<Type, (state: IPost[], payload: any) => IPost[]> = {
     CREATE: (state: IPost[], payload: IPost) => {
       const listPost = [...state];
+
+      if (payload.id > 100) {
+        const lastPost = state.reduce((max, item) => (item.id > max.id ? item : max), state[0]);
+
+        listPost.unshift({ ...payload, id: lastPost.id + 1 });
+        return listPost;
+      }
       listPost.unshift(payload);
 
       return listPost;
