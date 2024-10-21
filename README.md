@@ -16,7 +16,7 @@ Post Manager es una aplicación web desarrollada con React y Next.js que permite
 
 Puedes visitar la aplicación desplegada en el siguiente enlace:
 
-[Visitar Post Manager](https://frontend-developer-test-phi.vercel.app)
+[Visitar Post Manager](https://frontend-developer-test-fngd.vercel.app)
 
 ## Autor
 
